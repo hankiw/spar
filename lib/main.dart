@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
         useMaterial3: true,
       ),
-      initialRoute: '/Splash',
+      initialRoute: '/MainFrame',
       routes: {
         '/Splash': (context) => const SplashScreen(),
         '/Sign': (context) => SignScreen(),
